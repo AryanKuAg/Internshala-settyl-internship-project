@@ -1,0 +1,13 @@
+.app__center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body{
+  margin-top: 100px;
+}
+
+button{
+  padding: 15px;
+}
