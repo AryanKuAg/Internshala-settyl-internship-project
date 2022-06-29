@@ -1,0 +1,25 @@
+.for-desktop, .for-mobile {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.for-desktop {
+  background-color: goldenrod;
+  display: none;
+}
+
+.for-mobile {
+  background-color: pink;
+}
+
+@media only screen and (min-width: 600px){
+  .for-desktop{
+    display: flex;
+  }
+  .for-mobile{
+    display: none;
+  }
+}
