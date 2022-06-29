@@ -1,0 +1,17 @@
+.gridItem__cage{
+    margin-top: 50px;
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.myItem{
+    width: 100%;
+    height: 100px;
+    background-color: chocolate;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
